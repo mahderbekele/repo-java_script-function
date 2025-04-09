@@ -11,10 +11,10 @@ function even(arr) {
 }
 console.log(even([4, 1, 7, 8, 6]))
 //3 Create a function that takes an array of student objects with name and score properties and returns a new array containing only the names of students who scored above 75.
-function studentObjectArray(arrayOfStudents) {
-    return arrayOfStudents.filter(item => item.grade > 75);
+function studentPassed(arr) {
+    return arr.filter(item => item.grade > 75);
 }
-console.log(studentObjectArray([{ name: "mahder", grade: 87 }, { name: "Nahela", grade: 90 }, { name: "james", grade: 20 }]))
+console.log(studentPassed([{ name: "mahder", grade: 87 }, { name: "Nahela", grade: 90 }, { name: "james", grade: 20 }]))
 
 //4 Write a function that accepts an array of numbers and returns a new array with each number squared using the map() method.
 function square(arr) {
