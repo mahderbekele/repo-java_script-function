@@ -10,7 +10,7 @@ function even(arr) {
     return a
 }
 console.log(even([4, 1, 7, 8, 6]))
-//3Create a function that takes an array of student objects with name and score properties and returns a new array containing only the names of students who scored above 75.
+//3 Create a function that takes an array of student objects with name and score properties and returns a new array containing only the names of students who scored above 75.
 function studentObjectArray(arrayOfStudents) {
     return arrayOfStudents.filter(item => item.grade > 75);
 }
